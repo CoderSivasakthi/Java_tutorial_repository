@@ -32,7 +32,19 @@ public class ArrayListDemo {
 
         System.out.println(al.size());
         System.out.println(al.add("java"));
+        System.out.println(al.get(1));
+        System.out.println(al.getClass());
+        System.out.println(al.getFirst()+" "+al.getLast());
+        al.set(3,'A');
+        al.add(2,"Siva");
+        System.out.println(al.contains(12.50));
+        System.out.println(al.remove(2));
+        System.out.println(al.contains("hello"));
+        System.out.println(al.hashCode());
+        System.out.println(al.isEmpty());
+        System.out.println(al.clone());
         System.out.println(al);
+        System.out.println(al.size());
 
     }
 }
