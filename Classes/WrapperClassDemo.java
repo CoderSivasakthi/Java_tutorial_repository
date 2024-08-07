@@ -34,5 +34,16 @@ public class WrapperClassDemo {
             System.out.println("NO"+a);
         }
         System.out.println(ch);
+
+//        ArrayList<Integer> al = new ArrayList<Integer>();
+//        al.add(10);
+//        al.add(15);
+//
+//        System.out.println(al);
+//        for(int i=0;i<10;i++){
+//            al.add(i,al.get(i)+ al.get(i+1));
+//        }
+//        System.out.println(al);
+
     }
 }
